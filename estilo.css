@@ -1,0 +1,58 @@
+
+body {
+    background-color: #4B8EBB;
+    text-align: center;
+  }
+h5,p{
+  color: black;
+}
+  
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color:#F1FF29;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0%;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px ;
+  color: #154666;
+  margin-left: 25px;
+  margin-top: 0%;
+} 
+form{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 15px ;
+  color: #154666;
+  margin-left: 25px;
+  margin-top: 0%;
+} 
+.botonera {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.boton {
+  height: 20px;
+  width: 50px;
+  margin-left: 5em;
+  border-radius: 18px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  border: 2px solid #aaa;
+
+}
+.boton:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  border: 2px solid black;
+
+}
+#cambios{
+  display: none;
+}
